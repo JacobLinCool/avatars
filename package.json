@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "scripts": {
+        "make": "tsx src/index.ts",
+        "restore": "tsx src/index.ts restore"
+    },
+    "dependencies": {
+        "commander": "^9.4.1",
+        "cuid": "^2.1.8",
+        "debug": "^4.3.4",
+        "dotenv": "^16.0.3",
+        "nai-studio": "^0.2.4",
+        "ora": "^5.4.1"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.9",
+        "prettier": "^2.7.1",
+        "tsx": "^3.12.1",
+        "typescript": "^4.9.3"
+    }
+}
