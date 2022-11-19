@@ -1,0 +1,11 @@
+{
+    "prompt": "masterpiece, white_background, simple_background, indigo_eyes, brown_hair, top_Knot, very_long_hair, choppy_cuts, split_color_hair",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 206918435
+}

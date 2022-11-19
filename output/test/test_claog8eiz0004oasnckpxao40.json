@@ -1,0 +1,11 @@
+{
+    "prompt": "masterpiece, white_background, simple_background, brown_eyes, red_hair, short_wavy_hair, buzz_cut, hair_over_left_one_eye, streaked_hair",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 918415980
+}

@@ -1,0 +1,11 @@
+{
+    "prompt": "masterpiece, white_background, simple_background, violet_eyes, black_hair, cornrows, bob_cut, hime_cut, ,,,,,,,,,,,,,,,,,,,",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 655273220
+}
