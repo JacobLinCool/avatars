@@ -1,0 +1,11 @@
+{
+    "prompt": "solo, upper body, looking at viewer, open mouth, smile, :d, 1girl, beige hair, beige eyes, , blunt_bangs, coat, {{watercolor pencil}}, {watercolor}, sketch",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 1934161441
+}
