@@ -28,6 +28,7 @@ program
     .command("index")
     .option("-t, --title <title>", "Title of the index", "Novel AI Paintings")
     .option("-c, --cols <n>", "Number of columns", Number, 4)
+    .option("--json <n>", "Indentation of the JSON, negative for no JSON", Number, -1)
     .action(async (options) => {
         const base = path.join(process.cwd(), "output");
         const collections = fs
@@ -35,11 +36,13 @@ program
             .filter((name) => fs.statSync(path.join(base, name)).isDirectory());
 
         let md = `# ${options.title}\n\n`;
+        let json: Record<string, string[]> = {};
 
         for (const name of collections) {
             const c = new Collection(name);
 
             md += `<details open>\n<summary>\n${name}\n</summary>\n\n<table style="display: block; max-width: 100%; overflow: auto;">\n`;
+            json[name] = c.paintings.map((p) => path.basename(p.path));
 
             for (let i = 0; i < c.paintings.length; i += options.cols) {
                 md += "<tr>\n";
@@ -65,6 +68,12 @@ program
         md += `<style> img { max-width: 100%; } pre { max-width: 100%; white-space: pre-wrap !important; } </style>`;
 
         fs.writeFileSync(path.join(base, "README.md"), md);
+        if (options.json >= 0) {
+            fs.writeFileSync(
+                path.join(base, "index.json"),
+                JSON.stringify(json, null, options.json),
+            );
+        }
         ora().succeed(`Generated index in ${base}`);
     });
 
