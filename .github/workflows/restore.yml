@@ -51,6 +51,9 @@ jobs:
               env:
                   NOVEL_AI_TOKEN: ${{ secrets.NOVEL_AI_TOKEN }}
 
+            - name: Build Index
+              run: pnpm index
+
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v3
               with:
