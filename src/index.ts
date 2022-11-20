@@ -86,13 +86,13 @@ program
         "-w, --width <n>",
         "Width of paintings to generate",
         Number,
-        resolution.normal.portrait.width,
+        resolution.normal.square.width,
     )
     .option(
         "-h, --height <n>",
         "Height of paintings to generate",
         Number,
-        resolution.normal.portrait.height,
+        resolution.normal.square.height,
     )
     .option("-m, --model <model>", "Model to use", "safe-diffusion")
     .option("-S, --sampler <sampler>", "Sampler to use", "k_euler_ancestral")
