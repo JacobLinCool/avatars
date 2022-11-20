@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import path from "node:path";
 import { program } from "commander";
 import ora from "ora";
 import cuid from "cuid";
@@ -21,6 +22,38 @@ program
             await c.render(spinner);
             spinner.succeed(`Restored ${c.paintings.length} paintings in ${name}`);
         }
+    });
+
+program
+    .command("index")
+    .option("-t, --title <title>", "Title of the index", "Novel AI Paintings")
+    .action(async (options) => {
+        const base = path.join(process.cwd(), "output");
+        const collections = fs
+            .readdirSync(base)
+            .filter((name) => fs.statSync(path.join(base, name)).isDirectory());
+
+        let md = `# ${options.title}\n\n`;
+
+        for (const name of collections) {
+            const c = new Collection(name);
+
+            md += `<details>\n<summary>\n${name}\n</summary>\n\n`;
+
+            for (const p of c.paintings) {
+                const png = `${p.path.replace(base, ".")}.png`;
+                md += `[![${png}](${png})](${png})\n\n`;
+                md +=
+                    "<details>\n\n```json\n" +
+                    JSON.stringify(p.config, null, 4) +
+                    "\n```\n\n</details>\n\n---\n\n";
+            }
+
+            md += "</details>\n";
+        }
+
+        fs.writeFileSync(path.join(base, "README.md"), md);
+        ora().succeed(`Generated index in ${base}`);
     });
 
 program

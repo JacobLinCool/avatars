@@ -2,7 +2,8 @@
     "private": true,
     "scripts": {
         "make": "tsx src/index.ts",
-        "restore": "tsx src/index.ts restore"
+        "restore": "tsx src/index.ts restore",
+        "index": "tsx src/index.ts index"
     },
     "dependencies": {
         "commander": "^9.4.1",
