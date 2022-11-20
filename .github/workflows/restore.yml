@@ -1,0 +1,59 @@
+name: Restore
+
+on:
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+
+jobs:
+    restore:
+        name: Restore
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+
+            - name: Checkout Output Branch
+              uses: actions/checkout@v3
+              with:
+                  ref: output
+                  path: output_branch
+              continue-on-error: true
+
+            - name: Copy Rendered Images
+              shell: bash
+              run: |
+                  for collection in output/*/; do
+                      echo "Checking $collection"
+                      for file in $collection*.json; do
+                          echo "  Checking $file"
+                          png=$collection$(basename $file .json).png
+                          if [ ! -f $png ]; then
+                              src=output_branch/$(basename $collection)/$(basename $png)
+                              if [ -f $src ]; then
+                                  echo "    Copying $src"
+                                  cp $src $png
+                              fi
+                          fi
+                      done
+                  done
+              continue-on-error: true
+
+            - name: Setup PNPM
+              uses: pnpm/action-setup@v2.2.4
+              with:
+                  version: latest
+                  run_install: true
+
+            - name: Restore
+              run: pnpm restore
+              env:
+                  NOVEL_AI_TOKEN: ${{ secrets.NOVEL_AI_TOKEN }}
+
+            - name: Deploy
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN  }}
+                  publish_dir: "./output"
+                  publish_branch: "output"
