@@ -1,0 +1,11 @@
+{
+    "prompt": "solo, upper body, looking at viewer, 1boy, , {{{red_eyes}}}, , asymmetrical_bangs, coat, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 197131989
+}
