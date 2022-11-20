@@ -53,7 +53,7 @@ jobs:
 
             - name: Build Index
               run: |
-                  pnpm index
+                  pnpm index --json 0
                   pnpx showdown makehtml -i output/README.md -o output/index.html
 
             - name: Deploy
