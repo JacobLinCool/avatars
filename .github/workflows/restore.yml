@@ -52,7 +52,9 @@ jobs:
                   NOVEL_AI_TOKEN: ${{ secrets.NOVEL_AI_TOKEN }}
 
             - name: Build Index
-              run: pnpm index
+              run: |
+                  pnpm index
+                  pnpx showdown makehtml -i output/README.md -o output/index.html
 
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v3
