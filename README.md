@@ -3916,6 +3916,403 @@ girl-a
 </table></details>
 <details open>
 <summary>
+sketch
+</summary>
+
+<table style="display: block; max-width: 100%; overflow: auto;">
+<tr>
+<td><a target="_blank" href="./sketch/sketch_claptc06m0000qvsneffl45h2.png"><img src="./sketch/sketch_claptc06m0000qvsneffl45h2.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1boy, smile, {{{green_eyes}}}, , asymmetrical_bangs, hoodie, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 1214834748
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptc06m0001qvsnbg01gwhn.png"><img src="./sketch/sketch_claptc06m0001qvsnbg01gwhn.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1boy, , {{{red_eyes}}}, , asymmetrical_bangs, coat, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 197131989
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptc06m0002qvsn2s0d366d.png"><img src="./sketch/sketch_claptc06m0002qvsn2s0d366d.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1girl, , {{{pink_eyes}}}, blunt_sideburns, centre_parting_bangs, jacket, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 184139233
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptc06n0003qvsnhhh81j0j.png"><img src="./sketch/sketch_claptc06n0003qvsnhhh81j0j.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1boy, smile, {{{purple_eyes}}}, long_straight_hair, , sweater, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 1010518376
+}
+```
+
+</details>
+</td>
+</tr>
+<tr>
+<td><a target="_blank" href="./sketch/sketch_claptc06n0004qvsn7dc285gy.png"><img src="./sketch/sketch_claptc06n0004qvsn7dc285gy.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1girl, open mouth, {{{teal_eyes}}}, twintails, hair_over_left_one_eye, sweater, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 1728806928
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptcle10000u8snh7nffl3f.png"><img src="./sketch/sketch_claptcle10000u8snh7nffl3f.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1boy, , {{{red_eyes}}}, slickedback, parted_bangs, hoodie, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 638505983
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptcle20001u8sn9hxqax7i.png"><img src="./sketch/sketch_claptcle20001u8sn9hxqax7i.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1girl, smile, {{{purple_eyes}}}, , , sweatshirt, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 706397639
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptcle20002u8sn46dl0ca0.png"><img src="./sketch/sketch_claptcle20002u8sn46dl0ca0.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1boy, :d, {{{teal_eyes}}}, , hair_over_left_one_eye, jacket, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 1708955148
+}
+```
+
+</details>
+</td>
+</tr>
+<tr>
+<td><a target="_blank" href="./sketch/sketch_claptcle20003u8sn1ndahwtd.png"><img src="./sketch/sketch_claptcle20003u8sn1ndahwtd.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1boy, , {{{violet_eyes}}}, , , hoodie, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 289034095
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptcle20004u8snd2ylamlf.png"><img src="./sketch/sketch_claptcle20004u8snd2ylamlf.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1girl, , {{{violet_eyes}}}, side_braid, hair_over_one_eye, sweatshirt, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 403827983
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptd8p30000xosn0lh0gpyh.png"><img src="./sketch/sketch_claptd8p30000xosn0lh0gpyh.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1boy, open mouth, {{{teal_eyes}}}, braid_ponytail, , sweater, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 2033664489
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptd8p30001xosnbdo5he4s.png"><img src="./sketch/sketch_claptd8p30001xosnbdo5he4s.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1boy, smile, {{{green_eyes}}}, lockssidelock, crossed_bangs, shirt, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 1452576595
+}
+```
+
+</details>
+</td>
+</tr>
+<tr>
+<td><a target="_blank" href="./sketch/sketch_claptd8p30002xosnd16tgbvm.png"><img src="./sketch/sketch_claptd8p30002xosnd16tgbvm.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1girl, , {{{purple_eyes}}}, dreadlocks, sideswept_bangs, sweatshirt, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 1474064622
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptd8p30003xosn5ehj5qoo.png"><img src="./sketch/sketch_claptd8p30003xosn5ehj5qoo.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1boy, smile, {{{blue_eyes}}}, blunt_sideburns, parted_bangs, hoodie, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 509000794
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptd8p40004xosncs8pe1at.png"><img src="./sketch/sketch_claptd8p40004xosncs8pe1at.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1boy, , {{{orange_eyes}}}, antenna_hair, hair_over_one_eye, sweater, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 1454950257
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptd8p40005xosnftyc2v18.png"><img src="./sketch/sketch_claptd8p40005xosnftyc2v18.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1girl, open mouth, {{{orange_eyes}}}, forehead, , sweater, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 128621351
+}
+```
+
+</details>
+</td>
+</tr>
+<tr>
+<td><a target="_blank" href="./sketch/sketch_claptd8p40006xosn5zg56qwm.png"><img src="./sketch/sketch_claptd8p40006xosn5zg56qwm.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1girl, , {{{blue_eyes}}}, , , sweater, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 411690682
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptd8p40007xosn7zu74d86.png"><img src="./sketch/sketch_claptd8p40007xosn7zu74d86.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1boy, , {{{orange_eyes}}}, , centre_parting_bangs, shirt, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 1269099164
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptd8p40008xosnhhvs3fhx.png"><img src="./sketch/sketch_claptd8p40008xosnhhvs3fhx.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1boy, smile, {{{orange_eyes}}}, antenna_hair, , sweatshirt, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 195152759
+}
+```
+
+</details>
+</td>
+<td><a target="_blank" href="./sketch/sketch_claptd8p40009xosnci5x5aap.png"><img src="./sketch/sketch_claptd8p40009xosnci5x5aap.png"></a>
+<details>
+
+```json
+{
+    "prompt": "solo, upper body, looking at viewer, 1girl, :d, {{{red_eyes}}}, wavy_hair, , hoodie, {{sketch}}, {{monochrome}}, black_and_white, dynamic angle",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 11,
+    "sampler": "k_euler_ancestral",
+    "seed": 116292356
+}
+```
+
+</details>
+</td>
+</tr>
+</table></details>
+<details open>
+<summary>
 watercolor
 </summary>
 
