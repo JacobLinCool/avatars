@@ -27,6 +27,7 @@ program
 program
     .command("index")
     .option("-t, --title <title>", "Title of the index", "Novel AI Paintings")
+    .option("-c, --cols <n>", "Number of columns", Number, 4)
     .action(async (options) => {
         const base = path.join(process.cwd(), "output");
         const collections = fs
@@ -38,19 +39,30 @@ program
         for (const name of collections) {
             const c = new Collection(name);
 
-            md += `<details>\n<summary>\n${name}\n</summary>\n\n`;
+            md += `<details open>\n<summary>\n${name}\n</summary>\n\n<table style="display: block; max-width: 100%; overflow: auto;">\n`;
 
-            for (const p of c.paintings) {
-                const png = `${p.path.replace(base, ".")}.png`;
-                md += `[![${png}](${png})](${png})\n\n`;
-                md +=
-                    "<details>\n\n```json\n" +
-                    JSON.stringify(p.config, null, 4) +
-                    "\n```\n\n</details>\n\n---\n\n";
+            for (let i = 0; i < c.paintings.length; i += options.cols) {
+                md += "<tr>\n";
+
+                for (let j = 0; j < options.cols; j++) {
+                    const p = c.paintings[i + j];
+                    if (p) {
+                        const png = `${p.path.replace(base, ".")}.png`;
+                        md += `<td><a target="_blank" href="${png}"><img src="${png}"></a>\n`;
+                        md +=
+                            "<details>\n\n```json\n" +
+                            JSON.stringify(p.config, null, 4) +
+                            "\n```\n\n</details>\n</td>\n";
+                    }
+                }
+
+                md += "</tr>\n";
             }
 
-            md += "</details>\n";
+            md += "</table></details>\n";
         }
+
+        md += `<style> img { max-width: 100%; } pre { max-width: 100%; white-space: pre-wrap !important; } </style>`;
 
         fs.writeFileSync(path.join(base, "README.md"), md);
         ora().succeed(`Generated index in ${base}`);
