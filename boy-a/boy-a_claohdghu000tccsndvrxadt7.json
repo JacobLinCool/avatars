@@ -1,0 +1,11 @@
+{
+    "prompt": "masterpiece, {{1boy}}, blue_eyes, orange_hair, short_hair, vertical_stripes, striped, looking_at_viewer, upper_body, solo, one_side_up, jacket, white_background, parted_lips, bangs, hair_between_eyes, black_jacket, white_jacket, simple_background, long_sleeves, collared_shirt, white_shirt, black_shirt, shiny, sketch",
+    "negative": "",
+    "model": "safe-diffusion",
+    "width": 640,
+    "height": 640,
+    "steps": 28,
+    "scale": 4.5,
+    "sampler": "k_euler_ancestral",
+    "seed": 432369246
+}
