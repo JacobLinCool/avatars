@@ -98,6 +98,7 @@ program
     .option("-S, --sampler <sampler>", "Sampler to use", "k_euler_ancestral")
     .option("--dry", "Dry run (Don't render images)")
     .action(async (matrix_name: string, collection_name, options) => {
+        matrix_name = matrix_name.replace(/-/g, "_");
         if (!(matrix_name in matrix)) {
             console.error(`Matrix ${matrix_name} not found`);
             process.exit(1);
